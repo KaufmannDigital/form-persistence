@@ -27,6 +27,9 @@
     "extra": {
         "neos": {
             "package-key": "PunktDe.Form.Persistence"
+        },
+        "loading-order": {
+            "after": "neos/form-builder"
         }
     }
 }
